@@ -1,0 +1,27 @@
+.bg-info {
+    width: 100%;
+    padding: 5px;
+}
+
+canvas {
+    
+    margin-top: 100px;
+
+    animation-name: changecolour;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+
+@keyframes changecolour {
+    from{ box-shadow: 2px 2px 25px blueviolet};
+    to{ box-shadow: 2px 2px 25px aqua};
+}
+
+#snap_btn:hover {
+     background-color: red;
+}
+
+body {
+    background-color: #77dd77 !important;
+}
